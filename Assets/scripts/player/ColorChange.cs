@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,6 +26,11 @@ public class ColorChange : MonoBehaviour
         if(Input.GetMouseButtonDown(0)){
 
 Colorchange.material=blue;
+
+        if(Input.GetMouseButtonDown(2)){
+
+Colorchange.material=blue;
+
 
 
  
